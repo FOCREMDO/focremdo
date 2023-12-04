@@ -1,2 +1,2 @@
-# CaroSnow1.github.io
+# FOMCREDO
 Este sitio web fue creado como resultado del proyecto PAPIME.
