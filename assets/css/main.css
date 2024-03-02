@@ -306,7 +306,7 @@ input, select, textarea {
 	}
 
 	.align-center {
-		text-align: center;
+		text-align: center !important;
 	}
 
 	.align-right {
@@ -337,7 +337,7 @@ input, select, textarea {
 		}
 
 		.row.aln-center {
-			justify-content: center;
+			justify-content: center !important;
 		}
 
 		.row.aln-right {
@@ -580,7 +580,7 @@ input, select, textarea {
 				}
 
 				.row.aln-center {
-					justify-content: center;
+					justify-content: center !important;
 				}
 
 				.row.aln-right {
@@ -825,7 +825,7 @@ input, select, textarea {
 				}
 
 				.row.aln-center {
-					justify-content: center;
+					justify-content: center !important;
 				}
 
 				.row.aln-right {
@@ -1070,7 +1070,7 @@ input, select, textarea {
 				}
 
 				.row.aln-center {
-					justify-content: center;
+					justify-content: center !important;
 				}
 
 				.row.aln-right {
@@ -1315,7 +1315,7 @@ input, select, textarea {
 				}
 
 				.row.aln-center {
-					justify-content: center;
+					justify-content: center !important;
 				}
 
 				.row.aln-right {
@@ -1560,7 +1560,7 @@ input, select, textarea {
 				}
 
 				.row.aln-center {
-					justify-content: center;
+					justify-content: center !important;
 				}
 
 				.row.aln-right {

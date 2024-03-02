@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Materialize-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/estilos.css">
   </head>
 
   <body class="indigo lighten-5">
@@ -30,7 +31,7 @@
       <!--Navbar colapsado (móviles) -->
       <ul class="sidenav indigo lighten-4" id="mobile-demo">
         <h4 class="center">Menú</h4>
-          <li><a href="index.html"><i class="material-icons left">view_module</i>Inicio</a></li>
+          <li><a href="index.html"><i class="material-icons left p-3">view_module</i>Inicio</a></li>
           <li><a href="#descripcion"><i class="material-icons left">local_library</i>Nosotros</a></li>
           <li><a href="#equipo"><i class="material-icons left">supervisor_account</i>Equipo</a></li>
           <li><a href="#productos"><i class="material-icons left">video_library</i>Productos</a></li>
@@ -40,17 +41,19 @@
       
     <!-- Main -->
     <main>
-      <div class="row center-align">
-        <div class="col l3 offset-l1 m5 s12 center">
-          <img class="responsive-img" src="images/LogoProyecto/Color.png" alt="LogoPAPIME">          
-        </div>
-        <div class="col l17 m7 s12 center">
-          <h2><b>Fomento para la Creación de Materiales Docentes</b></h2>      
+      <div class="container section">
+        <div class="row center ">
+          <div class="col l3 m4 s12">
+            <div class="">
+              <img class="responsive-img" src="images/LogoProyecto/Color.png" alt="LogoPAPIME">
+            </div>       
+          </div>
+          <div class="col l8 m7 s12 ">
+            <h2 class="center-align"><b>Fomento para la Creación de Materiales Docentes</b></h2>      
+          </div>
         </div>
       </div>
-
-
-
+      
       <!--Descripción-->
       <div class="row " id ="descripcion">
         <!--General-->
@@ -80,203 +83,465 @@
         <!--Equipo-->
       <div class="row " id="equipo">
         <div class="col l10 offset-l1 s12 m10 offset-m1">
-          <h5><b>El equipo de trabajo</b></h5>
-          <!--Responsables-->
-          <table class="responsive-table">
-            <thead >
-              <tr>
-                <th></th>  
-                <th>Responsable</th>
-                <th></th>
-                <th>Corresponsable</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><img src="images/Colaboradores/govantes.jpeg" alt="" class="circle" width="50" height="49%"></td>
-                <td><b>M. en I. Ángel César Govantes Sáldivar</b>
-                  <br>Técnico Académico Asociado B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería, UNAM.</p></td>
-                <td><img src="images/Colaboradores/norma.jpeg" alt="" class="circle" width="52" height="50%"></td>
-                <td><b>M. en I. Norma Elva Chavez Rodríguez</b>
-                  <br>Técnico Académico Titular B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería, UNAM.</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="section">
+            <h5><b>El equipo de trabajo</b></h5>
+          </div>
+          <!-- Responsables grid-->
+          <!-- Responsable-->
+          <div class="card-panel">
+            <div class="row">
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/govantes.jpeg" alt="" class="circle responsive-img" width="52" height="49%">
+                </div>
+                <div class="col s10">
+                  <span><b>Responsable</b></span>
+                  <hr>
+                  <b>M. en I. Ángel César Govantes Sáldivar</b>
+                  <br>
+                  <span> Técnico Académico Asociado B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!-- Corresponsable-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/norma.jpeg" alt="" class="circle responsive-img" width="52" height="50%">
+                </div>
+                <div class="col s10">
+                  <span><b>Corresponsable</b></span>
+                  <hr>
+                  <b>M. en I. Norma Elva Chavez Rodríguez</b>
+                  <br>
+                  <span>Técnico Académico Titular B de Tiempo Completo en el Departamento de Computación de la División de Ingeniería Eléctrica en la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <!--Academicos-->
-          <h5><b>Académicos Participantes</b></h5>
-          <table class="responsive-table">
-            <tbody>
-              <tr>
-                <td><img src="images/Colaboradores/sergio.jpg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>M. en I. Cruz Serguio Aguilar Díaz</b>
-                  <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería, UNAM.</td>
-                <td><img src="images/Colaboradores/octavio.png" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>M. en I. Octavio Arenas Covarrubias</b>
-                  <br>Profesor de Asignatura en la División de Ingeniería Mécanica e Industrial de la Facultad de Ingeniería, UNAM.</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/normallilis.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Mtra. Normal Lilis Morales García</b>
-                  <br>Profesora de Asignatura en la Carrera de Ingeniería en Sistemas Biomédicos, Facultad de Ingeniería, UNAM.</p>
-                <td><img src="images/Colaboradores/zamitis.png" alt="" class="circle" width="50" height="50%"></td>
-                <td><p><b>Ing. Carlos Alberto Román Zamitis</b>
-                  <br>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería, UNAM.</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/sergio-bibliotecas.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>M.A.T. Sergio Israel Franco García</b>
-                  <br>Jefe de Proyectos de Cómputo de la Coordinación del Sistema de Bibliotecas de la Facultad de Ingeniería, UNAM.</td>
-                <td><img src="images/Colaboradores/paola.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Ing. Paola Judith Villa Mancilla </b>
-                  <br>Profesora de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/rodrigo.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Ing. Rodrigo Hernández Ordoñez</b>
-                  <br>Profesor de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</p>
-                <td><img src="images/Colaboradores/bernardo.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><p><b>Ing. Bernardo Martell Andrade </b>
-                  <br>Profesor de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="section">
+            <h5><b>Académicos Participantes</b></h5>
+          </div>
+          <div class="card-panel">
+            <div class="row">
+              <!-- Ing Sergio -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/sergio.jpg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>M. en I. Cruz Serguio Aguilar Díaz</b>
+                  <br>
+                  <span> Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!--Ing Arenas-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/octavio.png" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>M. en I. Octavio Arenas Covarrubias</b>
+                  <br>
+                  <span>Profesor de Asignatura en la División de Ingeniería Mécanica e Industrial de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+               <!-- Mtra. Normal -->
+               <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/normallilis.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Mtra. Normal Lilis Morales García</b>
+                  <br>
+                  <span>Profesora de Asignatura en la Carrera de Ingeniería en Sistemas Biomédicos, Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!--Ing Zamitis-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/zamitis.png" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Ing. Carlos Alberto Román Zamitis</b>
+                  <br>
+                  <span>Profesor de Asignatura en la División de Ingeniería Eléctrica de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+               <!-- M.a.t. Sergio Israel -->
+               <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/sergio-bibliotecas.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>M.A.T. Sergio Israel Franco García</b>
+                  <br>
+                  <span>Jefe de Proyectos de Cómputo de la Coordinación del Sistema de Bibliotecas de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!--Ing. Paola-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/paola.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Ing. Paola Judith Villa Mancilla</b>
+                  <br>
+                  <span>Profesora de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+              <!-- Ing. Rodrigo Hernández-->
+              <div class="col s12 m6 valign-wrapper"> 
+               <div class="col s2 right-align">
+                 <img src="images/Colaboradores/rodrigo.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+               </div>
+               <div class="col s10">
+                 <b>Ing. Rodrigo Hernández Ordoñez</b>
+                 <br>
+                 <span>Profesor de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</span>
+               </div>
+             </div>
+             <!--Ing. Bernardo-->
+             <div class="col s12 m6 valign-wrapper"> 
+               <div class="col s2 right-align">
+                 <img src="images/Colaboradores/bernardo.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+               </div>
+               <div class="col s10">
+                 <b>Ing. Bernardo Martell Andrade</b>
+                 <br>
+                 <span>Profesor de Asignatura en la División de Ingeniería en Ciencias de la Tierra de la Facultad de Ingeniería, UNAM.</span>
+               </div>
+             </div>
+           </div>
+          </div>
+          <br>
           <!--Estudiantes Participantes-->
-          <h5><b>Estudiantes Participantes</b></h5>
-          <table class="responsive-table">
-            <tbody>
-              <tr>
-                <td><img src="images/Colaboradores/ana.png" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Ana Laura Mendoza Millán</b>
-                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería, UNAM</p>
-                </td>
-                <td><img src="images/Colaboradores/axel.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Axel Guiliam Salazar Montoya </b>
-                  <br>Estudiante de Ingeniería Industrial Facultad de Ingeniería, UNAM.</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/caro.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Carolina Álvarez Rodea</b>
-                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería, UNAM.</td>
-                <td><img src="images/Colaboradores/fernanda.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>María Fernanda Mendoza Ponce </b>
-                  <br>Estudiante de Física Biomédica en la Facultad de Ciencias, UNAM</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/jorge.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Jorge Arturo Díaz Castilleja</b>
-                  <br>Estudiante de Ingeniería Eléctrica-Electrónica de la Facultad de Ingeniería, UNAM</td>
-                <td><img src="images/Colaboradores/saul.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Saul Uriel Cruz Díaz</b>
-                  <br>Egresado de Diseño Industrial en la Facultad de Estudios Superiores Aragón, UNAM.
-                </td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/david.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>David Antonio Sánchez Ramírez</b>
-                  <br>Estudiante de Ingeniería en Computación Facultad de Ingeniería, UNAM</td>
-                <td><img src="images/Colaboradores/luz.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Luz Jackeline Anzures Gonzáles</b>
-                  <br>Estudiante de Ingeniería Petrolera Facultad de Ingeniería, UNAM.</td>
-              </tr>
-              <tr>
-                <td><img src="images/Colaboradores/emanuel.jpeg" alt="" class="circle" width="50" height="50%"></td>
-                <td><b>Emanuel López Hernández</b>
-                  <br>Pasante de Ingeniería en Computación, Facultad de Ingeniería, UNAM</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="section">
+            <h5><b>Estudiantes Participantes</b></h5>
+          </div>
+          <div class="card-panel">
+            <div class="row">
+              <!-- Maria Fernanda -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/fernanda.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>María Fernanda Mendoza Ponce</b>
+                  <br>
+                  <span>Estudiante de Física Biomédica en la Facultad de Ciencias, UNAM.</span>
+                </div>
+              </div>
+              <!-- Saul Uriel-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/saul.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Saul Uriel Cruz Díaz</b>
+                  <br>
+                  <span>Egresado de Diseño Industrial en la Facultad de Estudios Superiores Aragón, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+              <!-- Axel Guiliam  -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/axel.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Axel Guiliam Salazar Montoya</b>
+                  <br>
+                  <span>Estudiante de Ingeniería Industrial Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!-- Carolina Álvarez-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/caro.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Carolina Álvarez Rodea</b>
+                  <br>
+                  <span>Estudiante de Ingeniería en Computación, Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+              <!-- Luz Jackeline  -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/luz.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Luz Jackeline Anzures Gonzáles</b>
+                  <br>
+                  <span>Estudiante de Ingeniería Petrolera Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!-- Jorge Arturo-->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/jorge.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Jorge Arturo Díaz Castilleja</b>
+                  <br>
+                  <span>Estudiante de Ingeniería Eléctrica-Electrónica de la Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+              <!-- David Antonio -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/david.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>David Antonio Sánchez Ramírez</b>
+                  <br>
+                  <span>Estudiante de Ingeniería en Computación Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+              <!-- Ana Laura -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/ana.png" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Ana Laura Mendoza Millán</b>
+                  <br>
+                  <span>Estudiante de Ingeniería en Computación Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <br>
+            <div class="row">
+              <!-- David Antonio -->
+              <div class="col s12 m6 valign-wrapper"> 
+                <div class="col s2 right-align">
+                  <img src="images/Colaboradores/emanuel.jpeg" alt="" class="circle responsive-img" width="50" height="50%">
+                </div>
+                <div class="col s10">
+                  <b>Emanuel López Hernández</b>
+                  <br>
+                  <span>Pasante de Ingeniería en Computación, Facultad de Ingeniería, UNAM.</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <!--Productos-->
       <div class="row" id="productos">
-        <div class="col l10 offset-l1 s12 m10 offset-m1">
+        <div class="col l10 offset-l1 s12 m10 offset-m1 ">
         <h5><b>Productos</b></h5>
-          <ul class="collapsible popout">
+          <ul class="collapsible popout ">
             <!--Videos-->
             <li>
-              <div class="collapsible-header "><h5><i class="material-icons">video_library</i><b>Videos hechos por alumnos bajo supervisión de especialistas</b></h5></div>
+              <div class="collapsible-header center-align "><h5><i class="material-icons">video_library</i><b>Videos hechos por alumnos bajo supervisión de especialistas</b></h5></div>
               <div class="collapsible-body white">
                 <!--Lista-->
                 <!--Video Inteligencia de Negocio-->
-                <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
-                    <h4><b>"Introducción a la Inteligencia de Negocio"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1Qh-qiit4YzIrkfOrslHNdUMK7fb9S3AN/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="row white center-align">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center ">
+                    <h4 class="center-align"><b>"Introducción a la Inteligencia de Negocio"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1Qh-qiit4YzIrkfOrslHNdUMK7fb9S3AN/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Axel Guiliam Salazar Montoya bajo supervisión del M.I. Octavio Arenas Covarrubias.</p>
+                  </div>
+                </div>
+                <!--Video Inteligencia de Negocio-->
+                <div class="row white center-align">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center ">
+                    <h4 class="center-align"><b>"Introducción a la Inteligencia de Negocio"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1Qh-qiit4YzIrkfOrslHNdUMK7fb9S3AN/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b> Axel Guiliam Salazar Montoya bajo supervisión del M.I. Octavio Arenas Covarrubias.</p>
                   </div>
                 </div>
                 <!--Video Arquitectura Cliente-Servidor-->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
                     <h4><b>"Explorando la Importancia de la Arquitectura Cliente-Servidor en la Formación de Ingenieros en Computación"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1XmDsjAvEKeVJM14MiRGo4-k4Nu1arn_h/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1XmDsjAvEKeVJM14MiRGo4-k4Nu1arn_h/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b> Carolina Álvarez Rodea bajo la supervisión del Ing. Carlos Alberto Román Zamitiz.</p>
                   </div>
                 </div>
                 <!--Video Bioquimica-->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
                     <h4><b>"Bioquímica: Asignatura de Ingeniería en Sistemas Biomédicos"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1weu2kax_ar1cw9Fpe_M_ZV4FyjwJxSFJ/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1wZzm1H2gaGunsE72vVEM0STnxBKBYK9a/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b>  María Fernanda Mendoza Ponce bajo supervisión de la Dra. Norma Lilia Morales García.</p>
                   </div>
                 </div>
                 <!--Video Principales Biomoléculas-->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
                     <h4><b>"Temas Generales de Bioquímica: Principales Biomoléculas"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1uoNizCWVBSh6jguOOeFqxXi1YOQO-1ma/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1AtlQfeGlbs4GIaAQX8y6WfSBa8dVGWvJ/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b> María Fernanda Mendoza Ponce bajo supervisión de la Dra. Norma Lilia Morales García.</p>
+                  </div>
+                </div>
+                <!--Video Inteligencia Artificial-->
+                <div class="row white">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
+                    <h4><b>"¿Qué es una IA"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1POejj8Ak-rSdGEj86MChe_skbSBb1ZLl/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Luz Jackeline Anzures Gonzáles.</p>
                   </div>
                 </div>
                 <!--Video Experiencias-->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
                     <h4><b>"FOCREMDO: Experiencias de los alumnos"</b></h4>
-                    <iframe width="100%" height="360" src="https://clipchamp.com/watch/vASHBgtNYHk/embed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1P--NI_wzZ0AcMArXxmxIp1SYva9Wb1uV/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p class="indigo-text text-darken-3"><b>Creado por:</b> Saul Uriel Cruz Díaz.</p>
                   </div>
                 </div>
+                <!--Prototipo de Video-->
+                <div class="row white">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
+                    <h4><b>"Prototipo de video"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1AgijxgAsWDO-WYomAKdGmuwB6rdA6BAy/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Ana Laura Mendoza Millán.</p>
+                  </div>
+                </div>
+              </div>
             </li>
             <!--Entrevistas-->
             <li>
-              <div class="collapsible-header "><h5><i class="material-icons">video_library</i><b>Entrevistas realizadas a ingenieros especialistas</b></h5></div>
+              <div class="collapsible-header "><h5><i class="material-icons">video_library</i><b>Entrevista realizada a ingenieros especialistas</b></h5></div>
               <div class="collapsible-body white">
                 <!--Lista-->
                 <!--Video Entrevista Ingeniera Paola-->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
-                    <h4><b>"Entrevista con la Ing. Paola Judith Villa Mancilla"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1YUn60WzDbdBHfhP4pZNVbSbW20xgsAVX/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Luz Jackeline Anzures Gonzáles bajo la supervisión de la Ing. Paola Judith Villa Mancilla.</p>
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
+                    <h4><b>"La importancia de la geología en la ingeniería petrolera"</b></h4>
+                    <h5><span>Desde la perspectiva de profesores de: geología general, geología de yacimientos, geología del petróleo y registros geofísicos.</span></h5>
+                    <br>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1Tir_ZKHxgHgCgSplMCOhwvXMuKuXkmME/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Luz Jackeline Anzures Gonzáles bajo la supervisión de los ingenieros: Paola Judith Villa Mancilla, Rodrigo Hernández Ordoñez y  Bernardo Martell Andrade.</p>
                   </div>
                 </div>
-                <!--Video Entrevista Ingeniero Rodrigo-->
+              </div>
+            </li>
+            <!-- Videos tutoriales-->
+            <li>
+              <div class="collapsible-header "><h5><i class="material-icons">video_library</i><b>Videos tutoriales</b></h5></div>
+              <div class="collapsible-body white">
+                <!--Lista-->
+                <!--Video -->
                 <div class="row white">
-                  <div class="col l10 m10 offset-l1 offset-m1 s12 center">
-                    <h4><b>"Entrevista con el Ing. Rodrigo Hernández Ordoñez"</b></h4>
-                    <iframe width="100%" height="360" src="https://drive.google.com/file/d/1OI8C9VuKvt_0AmzEH-W9R0Kd5KW40y6u/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Luz Jackeline Anzures Gonzáles bajo la supervisión de el Ing. Rodrigo Hernández Ordoñez</p>
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
+                    <h4><b>"¿Cómo realizar una presentación con Canva"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1yWs9cW_CUNs4U2Vqygj-hfhOzIQgLX6l/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Axel Guiliam Salazar Montoya.</p>
                   </div>
                 </div>
+                <!--Video -->
+                <div class="row white">
+                  <div class="col l8 m8 s12 offset-l2 offset-m2 center">
+                    <h4><b>"Clipchamp | Lección 1: Acceso a Interfaz"</b></h4>
+                    <iframe width="100%" height="400" src="https://drive.google.com/file/d/1MIFzyvWcOHsMz9aEsZ0AmBzpnFTr6hk4/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="indigo-text text-darken-3"><b>Creado por:</b> Saul Uriel Cruz Díaz.</p>
+                  </div>
+                </div>
+              </div>
+            </li> 
           </ul>
         </div>
       </div> 
+      </div>
       <!--Eventos-->
       <div class="row" id="eventos">
         <div class="col l10 offset-l1 s12 m10 offset-m1">
         <h5><b>Eventos en el Centro de Docencia "Ing. Gilberto Borja Navarrete"</b></h5>
           <ul class="collapsible popout">
-            <li> <!--1ra Reunion-->
+            <!-- <li> 1ra Reunion
               <div class="collapsible-header"><h5><i class="material-icons">date_range</i><b>1ra Reunión de Fomento de Creación de Materiales Docentes</b></h5></div>
               <div class="collapsible-body white">
                 <iframe src="https://drive.google.com/file/d/1pSiSLiNFv8fJku6P2NpJQC_wWN7j4HcQ/preview" width="100%" height="480"></iframe>
+              </div>
+            </li>-->
+            <li>
+              <div class="collapsible-header"><h5><i class="material-icons">date_range</i>
+                <b>Foros/Conferencias</b></h5>
+              </div>
+              <div class="collapsible-body white">
+                <div class="row">
+                  <!--div class="col l10 m10 offset-l2 offset-m2 s12 center "-->
+                    <div class="carousel carousel-slider">
+                      <!--div class="carousel-item">
+                        <img class="responsive-img" width="100%" height="580" src="images/Carousel/1.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="responsive-img" width="100%" height="580" src="images/Carousel/2.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="responsive-img" width="100%" height="580" src="images/Carousel/3.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="responsive-img" width="100%" height="580" src="images/Carousel/4.jpg">
+                      </div-->
+                      <img class="carousel-item responsive-img" width="100%" height="580" src="images/Carousel/1.jpg">
+                      <img class="carousel-item responsive-img" width="100%" height="580" src="images/Carousel/2.jpg">
+                      <img class="carousel-item responsive-img" width="100%" height="580" src="images/Carousel/3.jpg">
+                      <img class="carousel-item responsive-img" width="100%" height="580" src="images/Carousel/4.jpg">
+                    </div>    
+                  <!--div-->
+                </div>
               </div>
             </li>
           </ul>
         </div>
       </div> 
+      <!--div class="section">
+        <div class="container">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-item red white-text" href="#one!">
+              <div class="container">
+                <h2>First Panel</h2>
+                <iframe src="https://drive.google.com/file/d/1pSiSLiNFv8fJku6P2NpJQC_wWN7j4HcQ/preview" width="100%" height="480"></iframe>
+              </div>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <div class="container">
+                <h2>Second Panel</h2>
+                <iframe src="https://drive.google.com/file/d/1pSiSLiNFv8fJku6P2NpJQC_wWN7j4HcQ/preview" width="100%" height="480"></iframe>
+              </div>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <div class="container">
+                <h2>Third Panel</h2>
+                <iframe src="https://drive.google.com/file/d/1pSiSLiNFv8fJku6P2NpJQC_wWN7j4HcQ/preview" width="100%" height="480"></iframe>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div-->
+      <br>
     </main>  
 
     <!-- Footer -->
@@ -299,7 +564,7 @@
             
             <div class="row">
               <div class="col l2 s3">
-                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img align="center" alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.5/mx/88x31.png" /></a>
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img align ="center" alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.5/mx/88x31.png" /></a>
               </div>
               <div class="col offset-l1 l9 s9">
                 Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Licencia Creative Commons Atribución 4.0 Internacional</a>.
@@ -334,15 +599,7 @@
     <!--Inicialización de componentes de Materialize-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.collapsible').collapsible();
-      });
-    </script>
+    <!--SCRIPT PARA SIDENAV, COLLAPSIBLE Y CAROUSEL-->
+    <script type="text/javascript" src="assets/js/scripts.js" defer></script>
   </body>
 </html>
