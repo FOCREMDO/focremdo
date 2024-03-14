@@ -56,5 +56,5 @@ $(document).ready(function(){
       var instance = M.Carousel.getInstance(elems[0]);
       instance.next();
     }
-    setInterval(nextSlide, 3500);
+    setInterval(nextSlide, 5500);
   });
